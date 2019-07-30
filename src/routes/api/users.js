@@ -58,7 +58,7 @@ router.post('/', (request, response, next) =>
 			else
 			{
 				response.location('/');
-				response.json('success');
+				response.json();
 			}
 		});
 	}

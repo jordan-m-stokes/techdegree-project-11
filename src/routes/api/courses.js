@@ -110,7 +110,7 @@ router.post('/', parseCredentials, (request, response, next) =>
                 }
                 response.status(201);
                 response.location('/');
-                return response.json('success');
+                return response.json();
             });
         }
     });
@@ -147,7 +147,7 @@ router.put("/:cId", parseCredentials, (request, response, next) =>
                     return next(error);
                 }
                 response.status(204);
-                return response.json('success');
+                return response.json();
             });
 		}
     });
@@ -201,7 +201,7 @@ router.post("/:cId/reviews", parseCredentials, (request, response, next) =>
                     }
                     response.status(201);
                     response.location('/api/courses/' + course._id);
-                    response.json('success');
+                    response.json();
                 });
             });
 		}

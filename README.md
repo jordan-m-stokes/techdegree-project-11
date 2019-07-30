@@ -1,6 +1,6 @@
-# techdegree-project-11
+# Techdegree Project 11 - Course API with Express
 
-## setup 
+## Setup 
 * Clone project
 * Install Mongo and Postman if not having done it already
 * Run following commands in the `seed-data` folder to setup database
@@ -11,13 +11,13 @@
   ```
 * Use `CourseAPI.postman_collection.json` file to setup Postman for testing
 
-## usage
-* run `mongod` to start up database
-* run `npm start` in project directory to run server
-* use postman to send requests to the server
+## Usage
+* Run `mongod` to start up database
+* Run `npm start` in project directory to run server
+* Use postman to send requests to the server
 
-## testing
-* the unit testing written for this program only works if the following user exists in the database:
+## Testing
+* The unit testing written for this program only works if the following user exists in the database:
 ```Javascript
 {
   fullName: John Smith,

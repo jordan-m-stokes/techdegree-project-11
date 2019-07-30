@@ -14,7 +14,7 @@
 ## Usage
 * Run `mongod` to start up database
 * Run `npm start` in project directory to run server
-* Use postman to send requests to the server
+* Use Postman to send requests to the server
 
 ## Testing
 * The unit testing written for this program only works if the following user exists in the database:
